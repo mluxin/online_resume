@@ -24,9 +24,9 @@ function App() {
 
   return (
 
-    <Router>
-        <ThemeProvider theme={theme}/>
-        <GlobalStyles />
+      <ThemeProvider theme={theme}>
+        <Router>
+          <GlobalStyles></GlobalStyles>
 
           <div className="App">
             <Navbar />
@@ -44,7 +44,8 @@ function App() {
             <Menu open={open} setOpen={setOpen} />
           </div>
 
-    </Router>
+      </Router>
+    </ThemeProvider>
 
     );
   }
