@@ -30,34 +30,13 @@ function App() {
 
           <div className="App">
             <Navbar />
-
-            <Route exact path="/react_portfolio">
-              <Home />
-            </Route>
-
-            <Route exact path="/about">
-              <About />
-            </Route>
-
-            <Route exact path="/experiences">
-              <Experience />
-            </Route>
-
-            <Route exact path="/skills">
-              <SkillsView />
-            </Route>
-
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-
-            <Route exact path="/hobby">
-              <Hobby />
-            </Route>
-
-            <Route exact path="/projects">
-              <Projects />
-            </Route>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/experiences" component={Experience} />
+            <Route exact path="/skills" component={SkillsView} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/hobby" component={Hobby} />
+            <Route exact path="/projects" component={Projects} />
           </div>
 
           <div>

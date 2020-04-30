@@ -45,7 +45,7 @@ const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
        <List>
-          <Cell><Link to="/react_portfolio">Home</Link></Cell>
+          <Cell><Link to="/">Home</Link></Cell>
           <Cell><Link to="/about">About</Link></Cell>
           <Cell><Link to="/experiences">Experiences</Link></Cell>
           <Cell><Link to="/skills">Skills</Link></Cell>
