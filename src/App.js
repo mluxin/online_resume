@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-/* import './App.css'; */
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import './App.css';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './Style';
@@ -30,13 +30,15 @@ function App() {
 
           <div className="App">
             <Navbar />
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/experiences" component={Experience} />
-            <Route exact path="/skills" component={SkillsView} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/hobby" component={Hobby} />
-            <Route exact path="/projects" component={Projects} />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/experiences" component={Experience} />
+              <Route exact path="/skills" component={SkillsView} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/hobby" component={Hobby} />
+              <Route exact path="/projects" component={Projects} />
+            </Switch>
           </div>
 
           <div>
