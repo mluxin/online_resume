@@ -67,7 +67,6 @@ const Cell = styled.li`
 
 function SkillsView() {
   const [items] = useState([
-
     {
       title: "Web Development",
       skillTheme: ['HTML/CSS','Accessibility','Javascript','React.js','PHP/SQL', "Node.js", "PWA"]

@@ -2,7 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 import { MAX } from "./constants";
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
   * {
     margin:0;
     padding: 0;

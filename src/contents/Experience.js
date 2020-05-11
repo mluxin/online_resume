@@ -86,13 +86,13 @@ function Expe() {
         <Widecard>
           <div>
             {data.map(value =>
-              <WidecardContent>
+              <WidecardContent key={value.title}>
                   <ExpeTitle>{value.title}</ExpeTitle>
                   <From>{value.from} - {value.to}</From>
                   <Where>{value.where}</Where>
                   <During>{value.during}</During>
               </WidecardContent>
-              )}
+            )}
           </div>
         </Widecard>
       <Resume/>

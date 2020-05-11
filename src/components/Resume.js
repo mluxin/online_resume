@@ -29,15 +29,10 @@ const Mini = styled.img`
 
 const Resume = () => {
 
-  function onResumeClick() {
-    window.open(resume);
-  }
-
   return (
-    <div onClick={onResumeClick}>
+    <a href={resume} target="_blank" rel="noopener noreferrer">
       <Mini src={miniResume} alt="mini-resume"/>
-      <a href={resume} target="_blank" rel="noopener noreferrer"></a>
-    </div>
+    </a>
   )
 }
 

@@ -22,10 +22,10 @@ const Social = () => {
   return (
     <SocialContainer>
       <Network href="https://github.com/Rinaroar" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </Network>
       <Network href="https://www.linkedin.com/in/marina-luxin-661b38116/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </Network>
     </SocialContainer>
   )

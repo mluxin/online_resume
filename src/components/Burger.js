@@ -62,9 +62,9 @@ const Burger = ({ open, setOpen }) => {
   )
 }
 
-  Burger.propTypes = {
-    open: bool.isRequired,
-    setOpen: func.isRequired,
-  };
+Burger.propTypes = {
+  open: bool.isRequired,
+  setOpen: func.isRequired,
+};
 
 export default Burger;
