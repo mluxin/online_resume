@@ -46,8 +46,8 @@ function App() {
             <Menu open={open} setOpen={setOpen} />
           </div>
 
-      </Router>
-    </ThemeProvider>
+        </Router>
+      </ThemeProvider>
 
     );
   }
