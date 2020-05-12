@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Social from '../components/Social';
 
 import gif from '../img/seeya.gif';
+import mail from '../img/mail.png';
 import { MAX } from "../constants";
 
 const Container = styled.div`
@@ -32,14 +33,20 @@ const Title = styled.h1`
 `
 
 const Mail = styled.a`
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: rgb(189, 1, 129);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: rgb(189, 1, 129);
 
   &:hover {
     color:#680270;
   }
+`
+const Image = styled.img`
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const Gif = styled.img`
@@ -59,7 +66,9 @@ const Contact = () => {
     return (
       <Container>
         <Title>Will you dare?</Title>
-        <Mail href="mailto:marina.luxin@gmail.com">marina.luxin@gmail.com</Mail>
+        <Mail href="mailto:marina.luxin@gmail.com">
+          <Image src={mail} alt="my email" />
+        </Mail>
         <Gif src={gif} alt="Sponge Bob saying see you!"></Gif>
         <Social />
       </Container>
