@@ -69,7 +69,7 @@ const Home = () => {
         <Profile src={profilePic} alt="My face"></Profile>
           <Section>
             <Hi>
-              <span role="img" aria-label="hi hand"><Emoji >&#128075;&#127997; </Emoji></span>
+              <span role="img" aria-label="hihand"><Emoji>&#128075;&#127997;</Emoji></span>
               Hi there! My name is
             </Hi>
             <Name>Marina Luxin</Name>

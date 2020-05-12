@@ -41,9 +41,9 @@ const Cell = styled.li`
   }
 `
 
-const Menu = ({ open }) => {
+const Menu = ({ open, setOpen }) => {
   return (
-    <StyledMenu open={open}>
+    <StyledMenu open={open} onClick={() => setOpen(!open)}>
        <List>
           <Cell><Link to="/">Home</Link></Cell>
           <Cell><Link to="/about">About</Link></Cell>
