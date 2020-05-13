@@ -1,27 +1,3 @@
-.App {
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-}
-/* .condiv class is for the right side content container*/
-.condiv {
-  padding: 100px ;
-  background-color: #eee;
-  flex:var(--condiv-flex);
-}
-
-/* .widecard {
-  display: flex;
-  margin:30px 0px 30px 0px;
-  width: 80%;
-} */
-
-/* .widecard:hover {
-  color: #1b1d20;
-  padding: 2px;
-  background-color: #fafafa;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-} */
 
 .card {
   margin: 40px 85px 40px 0px;
@@ -77,17 +53,17 @@
 }
 
 
-@media screen and (max-width: 480px){
-  .project {
-    padding: 20% 10px 20px 18px;
+@media screen and (max-width: 1024px){
+  .card {
+    margin: 40px 85px 10px 40px;
   }
+}
 
-  .subtopic {
-    font-size: 1.5rem;
-  }
+
+@media screen and (max-width: 480px){
 
   .card {
-    width: 295px;
-    margin: 40px 85px 10px 0px;
+    width: 250px;
+    margin: 40px 0px 10px 30px;
   }
 }

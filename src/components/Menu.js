@@ -8,7 +8,7 @@ import { MAX } from "../constants";
 export const StyledMenu = styled.nav`
   display: none;
   background-image: linear-gradient(to top, #680270, #720171, #7c0071, #850071, #8e0071, #950072, #9c0173, #a30274, #a90277, #b0027b, #b6017e, #bd0181);
-  height: 100vh;
+  height: 100%;
   text-align: left;
 /*   padding: 2rem; */
   position: absolute;

@@ -9,11 +9,11 @@ const Container = styled.div`
   flex: 6;
 
   ${MAX.MEDIA_M}{
-    padding: 30% 50px 30px 50px;
+    padding: 20% 50px 30px 50px;
   }
 
   ${MAX.MEDIA_XS}{
-    padding: 20% 10px 20px 18px;
+    padding: 20% 10px 20px 25px;
   }
 `
 
@@ -28,6 +28,9 @@ const Section = styled.section`
   display: inline-flex;
   margin-top: 15px;
 
+  ${MAX.MEDIA_M} {
+    display: block;
+  }
   ${MAX.MEDIA_XS} {
     display: block;
   }
@@ -45,9 +48,12 @@ const List = styled.ul`
   }
 
 `
-
 const SkillTitle = styled.h2`
   color: rgb(189, 1, 129);
+
+  ${MAX.MEDIA_M}{
+    margin-top: 10%;
+  }
 
   ${MAX.MEDIA_XS} {
     font-size: 1.4rem;

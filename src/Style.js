@@ -18,6 +18,12 @@ const GlobalStyles = createGlobalStyle`
       font-size: 1rem;
       }
   }
+
+  .App {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
 `
 
 export default GlobalStyles;

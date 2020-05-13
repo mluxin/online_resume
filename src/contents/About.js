@@ -9,11 +9,11 @@ const Container = styled.div`
   flex: 6;
 
   ${MAX.MEDIA_M}{
-    padding: 30% 50px 30px 50px;
+    padding: 20% 50px 30px 50px;
   }
 
   ${MAX.MEDIA_XS}{
-    padding: 20% 10px 20px 18px;
+    padding: 20% 10px 20px 25px;
   }
 `
 

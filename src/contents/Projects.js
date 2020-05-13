@@ -1,11 +1,35 @@
 import React from 'react';
+import styled from 'styled-components';
+import { MAX } from "../constants";
+
 import Card from '../components/Card';
 
+const Project = styled.div`
+  padding: 90px;
+  background-color: #eee;
+  flex: 6;
+
+  ${MAX.MEDIA_M}{
+    padding: 10% 45px 90px 45px;
+  }
+
+  ${MAX.MEDIA_XS} {
+    padding: 20% 10px 20px 18px;
+  }
+`
+
+const Subtopic = styled.h1`
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.5rem;
+  }
+`
+
 const Projects = () => (
-  <div className="condiv project">
-    <h1 className="subtopic">What did I do until now ?</h1>
+  <Project>
+    <Subtopic>What did I do until now ?</Subtopic>
     <Card />
-  </div>
+  </Project>
 );
 
 export default Projects

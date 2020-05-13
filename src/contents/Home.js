@@ -14,8 +14,12 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
+  ${MAX.MEDIA_M}{
+    padding: 0px 45px 90px 45px;
+  }
+
   ${MAX.MEDIA_XS} {
-    padding: 0;;
+    padding: 0;
   }
 `
 const Profile = styled.img`
@@ -39,6 +43,10 @@ const Section= styled.div`
   text-align: center;
   margin-bottom: 80px;
 
+  ${MAX.MEDIA_M}{
+    margin-bottom: 0px;
+  }
+
   ${MAX.MEDIA_XS} {
     margin: 0 10px 45px 28px;
     text-align: left;
@@ -48,6 +56,10 @@ const Hi = styled.p`
 `
 const Text = styled.p`
   font-weight: 500;
+
+  ${MAX.MEDIA_M}{
+    font-size: 1rem;
+  }
 `
 const Name = styled.h1`
   color: #720171;
