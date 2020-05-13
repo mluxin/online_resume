@@ -16,7 +16,7 @@ const Container = styled.div`
   align-items: center;
 
   ${MAX.MEDIA_M}{
-    padding: 0px 50px 90px 50px;
+    padding: 20% 50px 90px 50px;
   }
 
   ${MAX.MEDIA_XS}{
