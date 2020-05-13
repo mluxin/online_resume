@@ -14,7 +14,7 @@ const Project = styled.div`
   }
 
   ${MAX.MEDIA_XS} {
-    padding: 20% 10px 20px 18px;
+    padding: 20% 10px 20px 25px;
   }
 `
 
